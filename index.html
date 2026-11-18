@@ -1,0 +1,703 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><meta content="web_standard" name="shell-type"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,300..900;1,300..900&amp;family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&amp;family=Manrope:wght@200..800&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-error": "#ffffff", "secondary-fixed": "#d5e3fd", "surface": "#f8f9ff", "tertiary-fixed-dim": "#ffb77d", "surface-container-highest": "#d3e4fe", "secondary": "#515f74", "on-tertiary-fixed": "#2f1500", "on-secondary-fixed": "#0d1c2f", "on-primary": "#ffffff", "secondary-fixed-dim": "#b9c7e0", "outline": "#6f7974", "on-error-container": "#93000a", "on-primary-fixed": "#002117", "surface-dim": "#cbdbf5", "tertiary": "#5a2e00", "on-primary-container": "#8cd1b6", "on-tertiary": "#ffffff", "background": "#f8f9ff", "surface-container-lowest": "#ffffff", "tertiary-container": "#7c4100", "on-tertiary-fixed-variant": "#6e3900", "secondary-container": "#d5e3fd", "primary-fixed-dim": "#90d4b9", "on-primary-fixed-variant": "#00513d", "surface-bright": "#f8f9ff", "outline-variant": "#bfc9c3", "tertiary-fixed": "#ffdcc3", "on-tertiary-container": "#ffb273", "surface-tint": "#246a54", "on-secondary-fixed-variant": "#3a485c", "on-secondary-container": "#57657b", "surface-variant": "#d3e4fe", "surface-container-low": "#eff4ff", "primary-fixed": "#abf1d5", "on-surface": "#0b1c30", "primary-container": "#0f5b46", "on-surface-variant": "#3f4944", "on-secondary": "#ffffff", "error-container": "#ffdad6", "inverse-primary": "#90d4b9", "error": "#ba1a1a", "surface-container-high": "#dce9ff", "inverse-surface": "#213145", "on-background": "#0b1c30", "inverse-on-surface": "#eaf1ff", "surface-container": "#e5eeff", "primary": "#004231" }, "borderRadius": { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, "spacing": { "space-md": "1rem", "space-lg": "1.5rem", "space-xs": "0.25rem", "gutter-sm": "1rem", "gutter": "1.5rem", "space-sm": "0.5rem", "space-xl": "2.5rem", "margin-sm": "1rem", "margin": "2rem" }, "fontFamily": { "label-md": ["Hanken Grotesk"], "title-md": ["Hanken Grotesk"], "headline-sm": ["Manrope"], "headline-lg": ["Manrope"], "numeric-lg": ["JetBrains Mono"], "headline-md": ["Manrope"], "label-sm": ["JetBrains Mono"], "display-mobile": ["Manrope"], "numeric-md": ["JetBrains Mono"], "body-md": ["Hanken Grotesk"], "display": ["Manrope"], "headline-lg-mobile": ["Manrope"], "body-sm": ["Hanken Grotesk"], "body-lg": ["Hanken Grotesk"] }, "fontSize": { "label-md": ["13px", { "lineHeight": "16px", "letterSpacing": "0.01em", "fontWeight": "500" }], "title-md": ["16px", { "lineHeight": "24px", "fontWeight": "600" }], "headline-sm": ["18px", { "lineHeight": "26px", "fontWeight": "600" }], "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.015em", "fontWeight": "600" }], "numeric-lg": ["20px", { "lineHeight": "28px", "letterSpacing": "-0.02em", "fontWeight": "500" }], "headline-md": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "500" }], "display-mobile": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "numeric-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "display": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "headline-lg-mobile": ["26px", { "lineHeight": "34px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "body-sm": ["12px", { "lineHeight": "16px", "fontWeight": "400" }], "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }] } } } };</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="w-full px-margin"><div class="h-20 flex items-center justify-between gap-gutter"><div class="flex items-center gap-space-md shrink-0"><img alt="RizBooks Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDz-kpLKbLWqnbKHENLUZIeD0K_jjja63GS2hEwuKu-Rjmkec95IZ-EJSysOaesbkKyL0uZam75_phxGX6Qb4a9wbKgzI47_efc4XW84cGcZFqnLS8-u3OD7cpnBs7MdVuxX_nJrqgkpeSaL7HEMPCnI5IE9CByC_qT78nAfaVSXILIzvzWAG0uK1DI7-clFaMZdyUKvRlpvK5GzPLkPKdcbnW2DE4XMUH6fEnyK9aE"><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-primary tracking-tight font-bold">RizBooks</span><span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Bookkeeping &amp; Advisory</span></div></div><nav class="hidden xl:flex items-center gap-gutter" data-active-classes="text-primary font-title-md"><a aria-current="page" class="transition-colors text-primary font-title-md" data-path="services" href="#">Services</a><a class="font-title-md text-title-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="how-it-works" href="#">How It Works</a><a class="font-title-md text-title-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="client-testimonials" href="#">Client Testimonials</a><a class="font-title-md text-title-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="faq" href="#">FAQ</a></nav><div class="flex items-center gap-gutter shrink-0"><a class="hidden md:flex flex-col items-end text-right group" href="mailto:Rizwan78614@gmail.com"><span class="font-label-sm text-label-sm text-on-surface-variant">Direct Line</span><span class="font-numeric-md text-numeric-md text-on-surface group-hover:text-primary transition-colors">Rizwan78614@gmail.com</span></a><a class="inline-flex items-center justify-center px-space-md py-space-sm bg-primary text-on-primary font-title-md text-title-md rounded-lg shadow-[0_1px_8px_rgba(0,0,0,0.04)] hover:bg-primary-container hover:text-on-primary-container transition-all" data-path="request-consultation" href="#">Request Consultation</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></div></header><main class="w-full pt-20 bg-surface"><div class="flex flex-col w-full">
+<!-- Trust / Assurance Top Ticker -->
+<section class="w-full bg-surface-container-high py-space-sm px-margin">
+<div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-md overflow-x-auto text-on-surface-variant text-label-sm font-label-sm uppercase tracking-wider py-1">
+<span class="flex items-center gap-1.5 shrink-0 text-primary font-semibold">
+<span class="material-symbols-outlined text-[16px]">verified</span> 100% Confidential
+        </span>
+<span class="text-outline-variant shrink-0">•</span>
+<span class="flex items-center gap-1.5 shrink-0">
+<span class="material-symbols-outlined text-[16px]">task_alt</span> QuickBooks &amp; Xero Certified
+        </span>
+<span class="text-outline-variant shrink-0">•</span>
+<span class="flex items-center gap-1.5 shrink-0">
+<span class="material-symbols-outlined text-[16px]">monitoring</span> Monthly Health Checkups
+        </span>
+<span class="text-outline-variant shrink-0">•</span>
+<span class="flex items-center gap-1.5 shrink-0">
+<span class="material-symbols-outlined text-[16px]">bolt</span> &lt;24hr Response Time
+        </span>
+</div>
+<div class="hidden lg:flex items-center gap-2">
+<span class="inline-block w-2 h-2 rounded-full bg-primary-container animate-pulse"></span>
+<span class="font-numeric-md text-numeric-md text-on-surface-variant font-medium">Accepting Q2/Q3 Onboarding Slots</span>
+</div>
+</div>
+</section>
+<!-- Hero Section -->
+<section class="w-full bg-surface py-space-xl px-margin relative overflow-hidden">
+<div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<!-- Headline & Value Pitch -->
+<div class="lg:col-span-7 flex flex-col gap-space-md z-10">
+<div class="inline-flex items-center gap-2 px-space-sm py-1 bg-surface-container rounded-full w-fit">
+<span class="material-symbols-outlined text-primary text-[18px]">account_balance_wallet</span>
+<span class="font-label-sm text-label-sm text-primary uppercase font-bold tracking-wider">Independent Advisory &amp; Bookkeeping</span>
+</div>
+<h1 class="font-display text-display text-on-surface tracking-tight leading-tight">
+          Accurate Bookkeeping &amp; <span class="text-primary-container">Financial Clarity</span> for Growing Small Businesses &amp; Freelancers.
+        </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">
+          Eradicate tax-season anxiety with pristine bank reconciliations, automated payroll handling, and real-time cash flow dashboards. You run the operations; we guarantee your general ledger is balance-sheet perfect.
+        </p>
+<!-- CTA Cluster -->
+<div class="flex flex-wrap items-center gap-space-md pt-space-sm">
+<button class="px-space-lg py-space-md bg-primary text-on-primary font-title-md text-title-md rounded-xl shadow-md hover:bg-primary-container hover:text-on-primary-container transition-all flex items-center gap-2 group" onclick="openConsultationModal()">
+<span class="">Request Free Consultation</span>
+<span class="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</button>
+<button class="px-space-lg py-space-md bg-surface-container-lowest text-on-surface font-title-md text-title-md rounded-xl shadow-sm hover:bg-surface-container transition-all flex items-center gap-2" onclick="openConsultationModal()">
+<span class="material-symbols-outlined text-primary text-[18px]">info</span>
+<span class="">Inquire About Services</span>
+</button>
+</div>
+<!-- Trust Metric Badges -->
+<div class="grid grid-cols-3 gap-space-md pt-space-lg">
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm">
+<div class="font-numeric-lg text-numeric-lg text-primary font-bold">99.8%</div>
+<div class="font-label-md text-label-md text-on-surface-variant mt-1">Reconciliation Accuracy</div>
+</div>
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm">
+<div class="font-numeric-lg text-numeric-lg text-primary font-bold">$15k+</div>
+<div class="font-label-md text-label-md text-on-surface-variant mt-1">Avg. Deductions Saved</div>
+</div>
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-sm">
+<div class="font-numeric-lg text-numeric-lg text-primary font-bold">&lt; 24hr</div>
+<div class="font-label-md text-label-md text-on-surface-variant mt-1">Direct Response Rate</div>
+</div>
+</div>
+</div>
+<!-- Hero Visual / Live Ledger Simulation -->
+<div class="lg:col-span-5 relative">
+<div class="relative w-full rounded-2xl bg-surface-container-lowest shadow-xl p-space-lg flex flex-col gap-space-md">
+<!-- Card Header -->
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<div class="w-3 h-3 rounded-full bg-error"></div>
+<div class="w-3 h-3 rounded-full bg-secondary-fixed"></div>
+<div class="w-3 h-3 rounded-full bg-primary-fixed-dim"></div>
+<span class="font-label-sm text-label-sm text-on-surface-variant ml-2 font-mono">Q2_Audit_Ready.acc</span>
+</div>
+<span class="px-2 py-0.5 rounded text-label-sm font-label-sm bg-primary-fixed text-on-primary-fixed font-semibold">Live Certified</span>
+</div>
+<!-- Ledger Match Visual Component -->
+<div class="bg-surface-container-low p-space-md rounded-xl flex flex-col gap-space-sm">
+<div class="flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant">
+<span class="">Operating Bank Feed (Plaid Encrypted)</span>
+<span class="font-numeric-md text-numeric-md text-primary font-semibold">$12,480.00 Cleared</span>
+</div>
+<div class="p-space-sm bg-surface-container-lowest rounded-lg flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[20px]">sync_alt</span>
+<div>
+<div class="font-title-md text-title-md text-on-surface">Client Retainer #1042</div>
+<div class="font-label-sm text-label-sm text-on-surface-variant">Stripe Payout • Auto-Categorized</div>
+</div>
+</div>
+<span class="font-numeric-md text-numeric-md font-bold text-on-surface">+$4,250.00</span>
+</div>
+</div>
+<!-- Micro Sparkline and Cashflow Glance -->
+<div class="p-space-md bg-surface-container-high rounded-xl flex flex-col gap-2">
+<div class="flex justify-between items-center">
+<span class="font-title-md text-title-md text-on-surface">Cash Velocity &amp; Burn</span>
+<span class="font-numeric-md text-numeric-md text-primary font-bold">+18.4% MoM</span>
+</div>
+<!-- Minimal Inline SVG Sparkline -->
+<svg class="w-full h-14 text-primary" fill="none" preserveAspectRatio="none" viewBox="0 0 320 60">
+<path d="M0 45 L40 40 L80 48 L120 28 L160 34 L200 18 L240 22 L280 8 L320 12" stroke="currentColor" stroke-linecap="round" stroke-width="3"></path>
+<path d="M0 45 L40 40 L80 48 L120 28 L160 34 L200 18 L240 22 L280 8 L320 12 L320 60 L0 60 Z" fill="currentColor" fill-opacity="0.08"></path>
+</svg>
+<div class="flex justify-between font-label-sm text-label-sm text-on-surface-variant">
+<span class="">Jan (Close)</span>
+<span class="">Feb (Reconciled)</span>
+<span class="">Mar (Audit-Ready)</span>
+</div>
+</div>
+<!-- Direct Accountant Verification Footnote -->
+<div class="flex items-center justify-between pt-2">
+<div class="flex items-center gap-2">
+<img alt="Rizwan Advisor Signature" class="h-6 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDz-kpLKbLWqnbKHENLUZIeD0K_jjja63GS2hEwuKu-Rjmkec95IZ-EJSysOaesbkKyL0uZam75_phxGX6Qb4a9wbKgzI47_efc4XW84cGcZFqnLS8-u3OD7cpnBs7MdVuxX_nJrqgkpeSaL7HEMPCnI5IE9CByC_qT78nAfaVSXILIzvzWAG0uK1DI7-clFaMZdyUKvRlpvK5GzPLkPKdcbnW2DE4XMUH6fEnyK9aE">
+<span class="font-label-sm text-label-sm text-on-surface">Audited by Rizwan • Certified</span>
+</div>
+<a class="font-label-sm text-label-sm text-primary hover:underline" href="mailto:Rizwan78614@gmail.com">Rizwan78614@gmail.com</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Core Services Suite -->
+<section class="w-full bg-surface-container-low py-space-xl px-margin" id="services">
+<div class="max-w-7xl mx-auto flex flex-col gap-space-xl">
+<!-- Section Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div>
+<span class="font-label-sm text-label-sm text-primary uppercase font-bold tracking-widest">Full-Stack Practice Areas</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mt-1">High-Precision Bookkeeping Services</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+          Tailored for founders, consultants, e-commerce, and regional small business operators who demand flawless books without paying agency retainers.
+        </p>
+</div>
+<!-- Bento Grid of Services -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter">
+<!-- Service 1: Monthly Bookkeeping -->
+<div class="bg-surface-container-lowest p-space-lg rounded-2xl shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow group">
+<div class="flex flex-col gap-space-md">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-[26px]">account_balance</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Monthly Bookkeeping &amp; Bank Reconciliation</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Rigorous line-by-line categorization across all bank accounts, corporate credit cards, and digital gateways (Stripe, PayPal, Square). Zero discrepancies at month-end.
+            </p>
+</div>
+<div class="pt-space-md mt-space-md flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-primary font-bold">100% Tied to Statements</span>
+<button class="text-primary hover:text-primary-container font-label-md text-label-md flex items-center gap-1" onclick="openConsultationModal('Monthly Bookkeeping')">
+              Select <span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</button>
+</div>
+</div>
+<!-- Service 2: Catch-Up & Clean-Up -->
+<div class="bg-surface-container-lowest p-space-lg rounded-2xl shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow group">
+<div class="flex flex-col gap-space-md">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-[26px]">auto_fix_high</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Historical Clean-up &amp; Catch-up</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Behind 3 months, 1 year, or multiple fiscal cycles? We audit messy ledgers, rectify duplicate entries, reconcile orphan invoices, and bring your records up to pristine audit standing.
+            </p>
+</div>
+<div class="pt-space-md mt-space-md flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-primary font-bold">IRS &amp; Audit Ready</span>
+<button class="text-primary hover:text-primary-container font-label-md text-label-md flex items-center gap-1" onclick="openConsultationModal('Catch-up Bookkeeping')">
+              Select <span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</button>
+</div>
+</div>
+<!-- Service 3: Payroll & Invoicing -->
+<div class="bg-surface-container-lowest p-space-lg rounded-2xl shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow group">
+<div class="flex flex-col gap-space-md">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-[26px]">payments</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Payroll &amp; Invoicing Management</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Full coordination of contractor W9/1099 compliance, wage journal sync (Gusto, ADP, QuickBooks Payroll), and vigilant Accounts Receivable tracking so unpaid invoices never slip.
+            </p>
+</div>
+<div class="pt-space-md mt-space-md flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-primary font-bold">Zero Late Payroll Filings</span>
+<button class="text-primary hover:text-primary-container font-label-md text-label-md flex items-center gap-1" onclick="openConsultationModal('Invoicing &amp; Payroll')">
+              Select <span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</button>
+</div>
+</div>
+<!-- Service 4: Financial Dashboards -->
+<div class="bg-surface-container-lowest p-space-lg rounded-2xl shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow group">
+<div class="flex flex-col gap-space-md">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-[26px]">insights</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Financial Reporting &amp; Cash Flow Dashboards</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Executive-grade Monthly Profit &amp; Loss statements, Balance Sheets, and dynamic runway forecasting delivered in plain English, highlighting margins, trends, and liquidity.
+            </p>
+</div>
+<div class="pt-space-md mt-space-md flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-primary font-bold">Delivered by the 5th of Each Month</span>
+<button class="text-primary hover:text-primary-container font-label-md text-label-md flex items-center gap-1" onclick="openConsultationModal('Financial Reporting')">
+              Select <span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</button>
+</div>
+</div>
+<!-- Service 5: Tax-Ready Year End Hand-off -->
+<div class="bg-surface-container-lowest p-space-lg rounded-2xl shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow group md:col-span-2 lg:col-span-2">
+<div class="flex flex-col md:flex-row gap-space-lg justify-between items-start">
+<div class="flex flex-col gap-space-md max-w-xl">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-[26px]">assignment_turned_in</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Tax-Ready Year-End CPA Binder &amp; Liaison</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                Avoid last-minute CPA clean-up billing. We prepare structured, annotated workpapers, depreciation schedules, and trial balance packages that hand seamlessly to your tax preparer.
+              </p>
+</div>
+<div class="bg-surface-container-high p-space-md rounded-xl flex flex-col gap-2 shrink-0 w-full md:w-64">
+<div class="font-title-md text-title-md text-primary font-bold">What Your CPA Receives:</div>
+<ul class="text-body-sm font-body-sm text-on-surface-variant space-y-1">
+<li class="flex items-center gap-1"><span class="material-symbols-outlined text-primary text-[14px]">check</span> Reconciled Trial Balance</li>
+<li class="flex items-center gap-1"><span class="material-symbols-outlined text-primary text-[14px]">check</span> Fixed Asset Schedules</li>
+<li class="flex items-center gap-1"><span class="material-symbols-outlined text-primary text-[14px]">check</span> General Ledger Detail Export</li>
+</ul>
+</div>
+</div>
+<div class="pt-space-md mt-space-md flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-primary font-bold">Direct Communication with Your Tax CPA</span>
+<button class="text-primary hover:text-primary-container font-label-md text-label-md flex items-center gap-1" onclick="openConsultationModal('Tax Prep Support')">
+              Select Package <span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Monthly Pricing Estimator -->
+
+<!-- How It Works (3 Steps) -->
+<section class="w-full bg-surface-container-low py-space-xl px-margin" id="how-it-works">
+<div class="max-w-7xl mx-auto flex flex-col gap-space-xl">
+<div class="max-w-2xl">
+<span class="font-label-sm text-label-sm text-primary uppercase font-bold tracking-widest">Seamless Onboarding</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mt-1">Clarity in 3 Frictionless Steps</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">
+          We respect your bandwidth. There are no 30-page onboarding questionnaires or endless email chains.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<!-- Step 1 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-2xl shadow-sm flex flex-col gap-space-md relative">
+<span class="font-numeric-lg text-numeric-lg text-primary font-bold">01 / DISCOVERY</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">15-Min Intro &amp; Systems Connect</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            A concise discovery call to understand your business model. You grant standard read-only access to QuickBooks, Xero, or your bank feed. No password sharing required.
+          </p>
+<div class="mt-auto pt-space-sm flex items-center gap-2 text-label-sm font-label-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-primary text-[18px]">lock</span>
+<span class="">Bank-Level Read-Only Security</span>
+</div>
+</div>
+<!-- Step 2 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-2xl shadow-sm flex flex-col gap-space-md relative">
+<span class="font-numeric-lg text-numeric-lg text-primary font-bold">02 / EXECUTION</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Automated Categorization &amp; Reconciliation</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Every transaction is inspected, split, and categorized into proper chart-of-accounts. Any ambiguous receipt is queried via a clean, consolidated monthly digest.
+          </p>
+<div class="mt-auto pt-space-sm flex items-center gap-2 text-label-sm font-label-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-primary text-[18px]">fact_check</span>
+<span class="">Daily Ledger Auto-Auditing</span>
+</div>
+</div>
+<!-- Step 3 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-2xl shadow-sm flex flex-col gap-space-md relative">
+<span class="font-numeric-lg text-numeric-lg text-primary font-bold">03 / REPORTING</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Clear Monthly Reports &amp; Support</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            Receive your closed financial statements by the 5th business day of each month, coupled with proactive insights on tax deductions, margin leaks, and liquidity trends.
+          </p>
+<div class="mt-auto pt-space-sm flex items-center gap-2 text-label-sm font-label-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-primary text-[18px]">verified</span>
+<span class="">Tax-CPA Approved Financials</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- About Rizwan / Why Choose RizBooks -->
+<section class="w-full bg-surface py-space-xl px-margin">
+<div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<!-- Visual Profile / Proof Card -->
+<div class="lg:col-span-5 flex flex-col gap-space-md">
+<div class="bg-surface-container-high p-space-lg rounded-2xl flex flex-col gap-space-md relative overflow-hidden shadow-sm">
+<div class="w-20 h-20 rounded-2xl bg-primary flex items-center justify-center text-on-primary">
+<span class="material-symbols-outlined text-[42px]">person_check</span>
+</div>
+<div>
+<h3 class="font-headline-md text-headline-md text-on-surface">Rizwan</h3>
+<p class="font-label-md text-label-md text-primary font-semibold">Lead Financial Controller &amp; Bookkeeper at RizBooks</p>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">
+            "Bookkeeping isn't just data entry—it is your operational radar. When ledgers are accurate, founders make confident hiring and investment choices."
+          </p>
+<!-- Direct Line Card -->
+<div class="bg-surface-container-lowest p-space-md rounded-xl flex flex-col gap-2">
+<div class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Direct Direct Advisor Line</div>
+<a class="font-numeric-md text-numeric-md text-primary font-bold hover:underline flex items-center gap-2" href="mailto:Rizwan78614@gmail.com">
+<span class="material-symbols-outlined text-[18px]">mail</span>
+<span class="">Rizwan78614@gmail.com</span>
+</a>
+<div class="text-body-sm font-body-sm text-on-surface-variant">
+              Guaranteed under 24-hour reply window for all client inquiries.
+            </div>
+</div>
+</div>
+</div>
+<!-- Why Choose Text Content -->
+<div class="lg:col-span-7 flex flex-col gap-space-md">
+<span class="font-label-sm text-label-sm text-primary uppercase font-bold tracking-widest">The RizBooks Advantage</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Personal Dedicated Attention. Never a Call Center.</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+          Large corporate bookkeeping platforms cycle your accounts through offshore junior clerks who don't know your business. With RizBooks, you work directly with Rizwan—benefiting from disciplined accuracy, continuous reconciliation, and bespoke financial insights.
+        </p>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md pt-space-sm">
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[24px] shrink-0 mt-0.5">verified_user</span>
+<div>
+<h4 class="font-title-md text-title-md text-on-surface">No Generic Junior Staff</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Your accounts are personally overseen by a certified specialist who understands tax law nuance.</p>
+</div>
+</div>
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[24px] shrink-0 mt-0.5">dynamic_form</span>
+<div>
+<h4 class="font-title-md text-title-md text-on-surface">Modern Cloud Stack</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">QuickBooks Online, Xero, Gusto, Melio, and live Google Sheets dashboards tuned for real-time visibility.</p>
+</div>
+</div>
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[24px] shrink-0 mt-0.5">security</span>
+<div>
+<h4 class="font-title-md text-title-md text-on-surface">Strict Non-Disclosure</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Rigid NDAs, two-factor authentication, and end-to-end credential encryption protect your fiscal privacy.</p>
+</div>
+</div>
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[24px] shrink-0 mt-0.5">savings</span>
+<div>
+<h4 class="font-title-md text-title-md text-on-surface">Maximize Deductions</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Every legitimate write-off, mileage credit, and home-office expenditure is systematically cataloged.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Client Testimonials & Real Case Studies -->
+<section class="w-full bg-surface-container-low py-space-xl px-margin" id="client-testimonials">
+<div class="max-w-7xl mx-auto flex flex-col gap-space-xl">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div>
+<span class="font-label-sm text-label-sm text-primary uppercase font-bold tracking-widest">Proven Client Results</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mt-1">Verified Small Business Success Stories</h2>
+</div>
+<div class="flex items-center gap-1 text-primary">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-title-md text-title-md text-on-surface ml-2 font-bold">5.0 / 5.0 Rating</span>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<!-- Case 1 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-2xl shadow-sm flex flex-col justify-between">
+<div class="flex flex-col gap-space-sm">
+<span class="font-label-sm text-label-sm text-primary uppercase font-bold tracking-wider">E-Commerce Brand (Shopify &amp; Amazon)</span>
+<p class="font-body-md text-body-md text-on-surface">
+              "We had 8 months of uncategorized inventory payouts and merchant fee splits. Rizwan sorted through 4,000+ line items in under two weeks. Our CPA filed on time with zero penalties."
+            </p>
+</div>
+<div class="pt-space-md mt-space-md flex items-center justify-between border-t border-surface-container">
+<div>
+<div class="font-title-md text-title-md text-on-surface">Marcus L.</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Founder, Apex Goods Co.</div>
+</div>
+<span class="px-2 py-1 rounded bg-surface-container text-primary font-numeric-md text-numeric-md font-bold">
+              $18.4k Saved
+            </span>
+</div>
+</div>
+<!-- Case 2 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-2xl shadow-sm flex flex-col justify-between">
+<div class="flex flex-col gap-space-sm">
+<span class="font-label-sm text-label-sm text-primary uppercase font-bold tracking-wider">Boutique Creative Agency</span>
+<p class="font-body-md text-body-md text-on-surface">
+              "Transitioning from spreadsheet chaos to RizBooks gave us visibility on our actual project profit margins. Having Rizwan respond in less than an hour on Slack is incredible value."
+            </p>
+</div>
+<div class="pt-space-md mt-space-md flex items-center justify-between border-t border-surface-container">
+<div>
+<div class="font-title-md text-title-md text-on-surface">Elena S.</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Managing Partner, Form &amp; Light</div>
+</div>
+<span class="px-2 py-1 rounded bg-surface-container text-primary font-numeric-md text-numeric-md font-bold">
+              100% Tax Ready
+            </span>
+</div>
+</div>
+<!-- Case 3 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-2xl shadow-sm flex flex-col justify-between">
+<div class="flex flex-col gap-space-sm">
+<span class="font-label-sm text-label-sm text-primary uppercase font-bold tracking-wider">Independent Tech Consultant</span>
+<p class="font-body-md text-body-md text-on-surface">
+              "As a sole proprietor billing 6-figures, I was terrified of audits. Rizwan setup my S-Corp payroll, tracked my business home-office split, and lowered my estimated tax liability substantially."
+            </p>
+</div>
+<div class="pt-space-md mt-space-md flex items-center justify-between border-t border-surface-container">
+<div>
+<div class="font-title-md text-title-md text-on-surface">Devon K.</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Enterprise Cloud Consultant</div>
+</div>
+<span class="px-2 py-1 rounded bg-surface-container text-primary font-numeric-md text-numeric-md font-bold">
+              5hr/wk Saved
+            </span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- FAQ Section (Accordion) -->
+<section class="w-full bg-surface py-space-xl px-margin" id="faq">
+<div class="max-w-4xl mx-auto flex flex-col gap-space-xl">
+<div class="text-center flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-primary uppercase font-bold tracking-widest">Clear Answers</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Frequently Asked Questions</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Everything you need to know about security, software handoffs, and retroactive bookkeeping.
+        </p>
+</div>
+<div class="flex flex-col gap-space-sm" id="faq-accordion-container">
+<!-- Question 1 -->
+<div class="bg-surface-container-lowest rounded-xl shadow-sm overflow-hidden">
+<button class="w-full p-space-md flex items-center justify-between text-left hover:bg-surface-container transition-colors" onclick="toggleFaq(1)">
+<span class="font-title-md text-title-md text-on-surface">Do you need direct access to move or transfer my money?</span>
+<span class="material-symbols-outlined text-primary text-[20px] transition-transform" id="faq-icon-1">expand_more</span>
+</button>
+<div class="hidden px-space-md pb-space-md text-body-md font-body-md text-on-surface-variant" id="faq-ans-1">
+<strong>No, absolutely not.</strong> We only require "Read-Only / Accountant" access. This grants permission to view transaction feeds and download statements, but prevents anyone from initiating transfers, moving funds, or changing bank account settings.
+          </div>
+</div>
+<!-- Question 2 -->
+<div class="bg-surface-container-lowest rounded-xl shadow-sm overflow-hidden">
+<button class="w-full p-space-md flex items-center justify-between text-left hover:bg-surface-container transition-colors" onclick="toggleFaq(2)">
+<span class="font-title-md text-title-md text-on-surface">What if my books are months or years behind?</span>
+<span class="material-symbols-outlined text-primary text-[20px] transition-transform" id="faq-icon-2">expand_more</span>
+</button>
+<div class="hidden px-space-md pb-space-md text-body-md font-body-md text-on-surface-variant" id="faq-ans-2">
+            Historical clean-ups are one of our core specialties. We perform retroactive catch-up bookkeeping regardless of whether you are 3 months or 3 years behind. We will provide a fixed one-time clean-up quote before starting.
+          </div>
+</div>
+<!-- Question 3 -->
+<div class="bg-surface-container-lowest rounded-xl shadow-sm overflow-hidden">
+<button class="w-full p-space-md flex items-center justify-between text-left hover:bg-surface-container transition-colors" onclick="toggleFaq(3)">
+<span class="font-title-md text-title-md text-on-surface">Which accounting software do you support?</span>
+<span class="material-symbols-outlined text-primary text-[20px] transition-transform" id="faq-icon-3">expand_more</span>
+</button>
+<div class="hidden px-space-md pb-space-md text-body-md font-body-md text-on-surface-variant" id="faq-ans-3">
+            We are certified in <strong>QuickBooks Online (QBO)</strong> and <strong>Xero</strong>. If you currently rely on Excel, Wave, or shoeboxes of physical receipts, we will migrate your business smoothly onto the platform that best fits your workflow.
+          </div>
+</div>
+<!-- Question 4 -->
+<div class="bg-surface-container-lowest rounded-xl shadow-sm overflow-hidden">
+<button class="w-full p-space-md flex items-center justify-between text-left hover:bg-surface-container transition-colors" onclick="toggleFaq(4)">
+<span class="font-title-md text-title-md text-on-surface">Do you file our company tax returns directly?</span>
+<span class="material-symbols-outlined text-primary text-[20px] transition-transform" id="faq-icon-4">expand_more</span>
+</button>
+<div class="hidden px-space-md pb-space-md text-body-md font-body-md text-on-surface-variant" id="faq-ans-4">
+            We specialize in daily and monthly bookkeeping, payroll reconciliation, and year-end trial balances. We assemble an audit-ready tax packet and liaison directly with your chosen CPA. If you do not have a CPA, we can connect you with vetted tax partners.
+          </div>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Request Information & Consultation Modal -->
+<div class="fixed inset-0 z-50 flex items-center justify-center bg-on-surface/50 backdrop-blur-sm p-4 hidden" id="consultation-modal">
+<div class="bg-surface-container-lowest rounded-2xl shadow-xl w-full max-w-xl max-h-[90vh] overflow-y-auto p-space-lg flex flex-col gap-space-md relative">
+<!-- Close Button -->
+<button class="absolute top-4 right-4 text-on-surface-variant hover:text-on-surface p-1 rounded-full hover:bg-surface-container transition-colors" onclick="closeConsultationModal()">
+<span class="material-symbols-outlined text-[24px]">close</span>
+</button>
+<!-- Modal Header -->
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-xl bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[24px]">edit_note</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Request Consultation</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Direct with Rizwan • Confidential &amp; Obligation-Free</p>
+</div>
+</div>
+<!-- Quick Email Banner -->
+<div class="p-space-sm bg-surface-container rounded-xl flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[18px]">outgoing_mail</span>
+<span class="font-label-sm text-label-sm text-on-surface font-mono">Rizwan78614@gmail.com</span>
+</div>
+<a class="px-2 py-1 bg-surface-container-lowest text-primary font-label-sm text-label-sm rounded shadow-sm hover:bg-primary hover:text-on-primary transition-all" href="mailto:Rizwan78614@gmail.com?subject=Consultation%20Inquiry%20via%20RizBooks">
+          Email Directly
+        </a>
+</div>
+<!-- Consultation Form -->
+<form class="flex flex-col gap-space-sm" id="consultation-form" onsubmit="handleFormSubmit(event)">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-sm">
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-on-surface-variant">Your Full Name *</label>
+<input class="px-space-sm py-2 rounded-lg bg-surface-container-low text-on-surface font-body-md text-body-md focus:bg-surface-container-lowest focus:outline-none focus:ring-2 focus:ring-primary transition-all" id="form-name" placeholder="Jane Doe" required="" type="text">
+</div>
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-on-surface-variant">Business Name</label>
+<input class="px-space-sm py-2 rounded-lg bg-surface-container-low text-on-surface font-body-md text-body-md focus:bg-surface-container-lowest focus:outline-none focus:ring-2 focus:ring-primary transition-all" id="form-business" placeholder="Apex Studio LLC" type="text">
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-sm">
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-on-surface-variant">Entity Structure *</label>
+<select class="px-space-sm py-2 rounded-lg bg-surface-container-low text-on-surface font-body-md text-body-md focus:bg-surface-container-lowest focus:outline-none focus:ring-2 focus:ring-primary transition-all" id="form-entity">
+<option value="LLC">Single/Multi Member LLC</option>
+<option value="Sole Proprietor">Sole Proprietorship</option>
+<option value="S-Corp">S-Corporation</option>
+<option value="Freelancer">Independent Freelancer</option>
+<option value="Startup">Early-Stage Startup</option>
+</select>
+</div>
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-on-surface-variant">Monthly Expense Volume</label>
+<select class="px-space-sm py-2 rounded-lg bg-surface-container-low text-on-surface font-body-md text-body-md focus:bg-surface-container-lowest focus:outline-none focus:ring-2 focus:ring-primary transition-all" id="form-volume">
+<option value="Under $10k">&lt; $10k / month</option>
+<option value="$10k - $50k">$10k - $50k / month</option>
+<option value="$50k - $150k">$50k - $150k / month</option>
+<option value="$150k+">$150k+ / month</option>
+</select>
+</div>
+</div>
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-on-surface-variant">Primary Service Desired *</label>
+<select class="px-space-sm py-2 rounded-lg bg-surface-container-low text-on-surface font-body-md text-body-md focus:bg-surface-container-lowest focus:outline-none focus:ring-2 focus:ring-primary transition-all" id="form-service">
+<option value="Monthly Bookkeeping">Monthly Bookkeeping &amp; Reconciliations</option>
+<option value="Catch-up Bookkeeping">Historical Clean-Up &amp; Catch-Up</option>
+<option value="Invoicing &amp; Payroll">Payroll &amp; Invoicing Management</option>
+<option value="Financial Reporting">Financial Dashboards &amp; Cash Flow</option>
+<option value="Tax Prep Support">Tax-Ready Year-End CPA Package</option>
+</select>
+</div>
+<div class="flex flex-col gap-1">
+<label class="font-label-sm text-label-sm text-on-surface-variant">Brief Notes or Specific Questions</label>
+<textarea class="px-space-sm py-2 rounded-lg bg-surface-container-low text-on-surface font-body-md text-body-md focus:bg-surface-container-lowest focus:outline-none focus:ring-2 focus:ring-primary transition-all" id="form-message" placeholder="Tell Rizwan about your current accounting setup, tools used, or deadline..." rows="3"></textarea>
+</div>
+<div class="pt-2 flex flex-col sm:flex-row items-center gap-space-sm">
+<button class="w-full sm:w-auto px-space-lg py-space-sm bg-primary text-on-primary font-title-md text-title-md rounded-xl shadow hover:bg-primary-container hover:text-on-primary-container transition-all flex items-center justify-center gap-2" type="submit">
+<span class="">Send Request Directly to Rizwan</span>
+<span class="material-symbols-outlined text-[18px]">send</span>
+</button>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Response guaranteed within 24 hours.</span>
+</div>
+</form>
+<!-- Confirmation Toast inside modal -->
+<div class="hidden p-space-lg bg-surface-container rounded-xl flex flex-col items-center text-center gap-space-sm" id="modal-success-screen">
+<div class="w-12 h-12 rounded-full bg-primary flex items-center justify-center text-on-primary">
+<span class="material-symbols-outlined text-[28px]">check_circle</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Consultation Request Dispatched</h4>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-sm">
+          Thank you! Rizwan has received your business details and will reply from <strong>Rizwan78614@gmail.com</strong> promptly.
+        </p>
+<button class="mt-2 px-space-md py-1.5 bg-primary text-on-primary rounded-lg font-label-md text-label-md" onclick="closeConsultationModal()">
+          Close Window
+        </button>
+</div>
+</div>
+</div>
+<!-- Global Floating Instant Action CTA -->
+<aside aria-label="Quick contact" class="fixed bottom-6 right-6 z-40 flex items-center gap-2">
+<button class="px-space-md py-space-sm bg-primary text-on-primary font-title-md text-title-md rounded-full shadow-lg hover:bg-primary-container hover:text-on-primary-container transition-all flex items-center gap-2 group" onclick="openConsultationModal()">
+<span class="material-symbols-outlined text-[20px]">calendar_month</span>
+<span class="hidden sm:inline">Book Free Intro Call</span>
+<span class="w-2 h-2 rounded-full bg-primary-fixed animate-ping"></span>
+</button>
+</aside>
+</div>
+<script>
+  function openConsultationModal(servicePrefill) {
+    var modal = document.getElementById('consultation-modal');
+    if (modal) {
+      modal.classList.remove('hidden');
+      if (servicePrefill) {
+        var serviceSelect = document.getElementById('form-service');
+        if (serviceSelect) {
+          for (var i = 0; i < serviceSelect.options.length; i++) {
+            if (serviceSelect.options[i].text.includes(servicePrefill) || serviceSelect.options[i].value.includes(servicePrefill)) {
+              serviceSelect.selectedIndex = i;
+              break;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  function closeConsultationModal() {
+    var modal = document.getElementById('consultation-modal');
+    if (modal) {
+      modal.classList.add('hidden');
+      var form = document.getElementById('consultation-form');
+      var success = document.getElementById('modal-success-screen');
+      if (form) form.classList.remove('hidden');
+      if (success) success.classList.add('hidden');
+    }
+  }
+
+  function selectPricingPlan(planTitle) {
+    openConsultationModal(planTitle);
+    var notesArea = document.getElementById('form-message');
+    if (notesArea) {
+      notesArea.value = 'Interested in the ' + planTitle + '. Please send scope details and next steps.';
+    }
+  }
+
+  function handleFormSubmit(event) {
+    event.preventDefault();
+    var name = document.getElementById('form-name').value;
+    var business = document.getElementById('form-business').value;
+    var entity = document.getElementById('form-entity').value;
+    var volume = document.getElementById('form-volume').value;
+    var service = document.getElementById('form-service').value;
+    var msg = document.getElementById('form-message').value;
+
+    var subject = encodeURIComponent('Consultation Request: ' + business + ' (' + name + ')');
+    var body = encodeURIComponent(
+      'Name: ' + name + '\n' +
+      'Business: ' + business + '\n' +
+      'Entity: ' + entity + '\n' +
+      'Expense Volume: ' + volume + '\n' +
+      'Service: ' + service + '\n' +
+      'Notes: ' + msg
+    );
+
+    // Open user's default email client pre-filled
+    window.open('mailto:Rizwan78614@gmail.com?subject=' + subject + '&body=' + body, '_blank');
+
+    // Display in-app confirmation
+    document.getElementById('consultation-form').classList.add('hidden');
+    document.getElementById('modal-success-screen').classList.remove('hidden');
+  }
+
+  function toggleFaq(index) {
+    var ans = document.getElementById('faq-ans-' + index);
+    var icon = document.getElementById('faq-icon-' + index);
+    if (ans) {
+      if (ans.classList.contains('hidden')) {
+        ans.classList.remove('hidden');
+        if (icon) icon.classList.add('rotate-180');
+      } else {
+        ans.classList.add('hidden');
+        if (icon) icon.classList.remove('rotate-180');
+      }
+    }
+  }
+
+  // Close modal when clicking outside content box
+  window.addEventListener('click', function(e) {
+    var modal = document.getElementById('consultation-modal');
+    if (e.target === modal) {
+      closeConsultationModal();
+    }
+  });
+
+  // Bind shell consultation buttons to modal if available
+  document.addEventListener('DOMContentLoaded', function() {
+    var shellConsultCtas = document.querySelectorAll('[data-path="request-consultation"]');
+    shellConsultCtas.forEach(function(btn) {
+      btn.addEventListener('click', function(e) {
+        e.preventDefault();
+        openConsultationModal();
+      });
+    });
+  });
+</script></main><footer class="w-full bg-surface-container-low mt-space-xl"><div class="w-full px-margin py-space-xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter mb-space-xl"><div><div class="flex items-center gap-space-md mb-space-md"><img alt="RizBooks Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDz-kpLKbLWqnbKHENLUZIeD0K_jjja63GS2hEwuKu-Rjmkec95IZ-EJSysOaesbkKyL0uZam75_phxGX6Qb4a9wbKgzI47_efc4XW84cGcZFqnLS8-u3OD7cpnBs7MdVuxX_nJrqgkpeSaL7HEMPCnI5IE9CByC_qT78nAfaVSXILIzvzWAG0uK1DI7-clFaMZdyUKvRlpvK5GzPLkPKdcbnW2DE4XMUH6fEnyK9aE"><span class="font-headline-sm text-headline-sm text-primary font-bold">RizBooks</span></div><p class="font-body-md text-body-md text-on-surface-variant max-w-sm mb-space-md">Engineered clarity and certified precision for SMB controllers, growing firms, and ambitious enterprises.</p><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-primary text-[18px]">verified_user</span><span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Bank-Grade Confidentiality</span></div></div><div><h4 class="font-title-md text-title-md text-on-surface mb-space-md">Navigation</h4><ul class="space-y-space-sm"><li class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors cursor-pointer">Services &amp; Practice Areas</li><li class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors cursor-pointer">How It Works</li><li class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors cursor-pointer">Client Reviews &amp; Cases</li><li class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors cursor-pointer">Frequently Asked Questions</li></ul></div><div><h4 class="font-title-md text-title-md text-on-surface mb-space-md">Direct Advisory</h4><ul class="space-y-space-sm"><li class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-primary text-[18px]">mail</span><a class="font-numeric-md text-numeric-md text-on-surface-variant hover:text-on-surface transition-colors" href="mailto:Rizwan78614@gmail.com">Rizwan78614@gmail.com</a></li><li class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-primary text-[18px]">schedule</span><span class="font-body-md text-body-md text-on-surface-variant">Mon-Fri: 8:00 AM - 6:00 PM EST</span></li><li class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-primary text-[18px]">location_on</span><span class="font-body-md text-body-md text-on-surface-variant">North America Services Suite</span></li></ul></div><div><h4 class="font-title-md text-title-md text-on-surface mb-space-md">Trust &amp; Governance</h4><p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md leading-relaxed">All ledger data, tax records, and reconciliations are governed under strict non-disclosure obligations and audited compliance protocols.</p><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-primary text-[18px]">lock</span><span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">256-Bit Ledger Encryption</span></div></div></div><div class="pt-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md"><p class="font-label-sm text-label-sm text-on-surface-variant">© 2025 RizBooks Accounting &amp; Advisory Services. All rights reserved.</p><div class="flex items-center gap-gutter"><span class="font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface transition-colors cursor-pointer">Privacy Assurance</span><span class="font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface transition-colors cursor-pointer">Terms of Engagement</span><span class="font-label-sm text-label-sm text-on-surface-variant hover:text-on-surface transition-colors cursor-pointer">Audit Standards</span></div></div></div></footer>
+
+</body></html>
